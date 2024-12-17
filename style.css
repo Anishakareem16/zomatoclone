@@ -1,0 +1,101 @@
+.body{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+#header_img{
+    position: relative;
+    width: 100vw;
+    height: 600px;
+    background-image: linear-gradient(to right,rgba(0,0,0,.4),rgba(0,0,0,.6)),url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    width: 100vw;
+    height: 60px;
+}
+.nav_menu{
+    width: 60vw;
+    height: 60px;
+}
+.zomato{
+    display: block;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header-flex{
+    margin-top: 100px;
+
+}
+.nav-link{
+    border-bottom: 0px solid black;
+    cursor: pointer;
+}
+.nav-link hover{
+    border-bottom: 5px solid white;
+}
+.search-box{
+    width: 30vw;
+    height: 60px;
+    border: none;
+    /* border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 20px; */
+    outline: none;
+    font-weight: bold;
+    font-size: 18px ;
+
+}
+.search-btn{
+    width: 130px;
+    background-color: red;
+    color: white;
+    border: none;
+    /* border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px; */
+    font-weight: bold;
+    font-size: 20px;
+}
+#second-session{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.card{
+    margin-left: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px white;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.card:hover{
+    box-shadow: 1px 1px 10px black;
+}
+.heading{
+    margin-top: 30px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sub_heading{
+    font-weight:30px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
